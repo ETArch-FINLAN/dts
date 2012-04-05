@@ -1,4 +1,4 @@
-package br.ufu.facom.network.dts.util.route;
+package br.ufu.facom.network.dts.route;
 
 import br.ufu.facom.network.dts.bean.core.Workspace;
 import br.ufu.facom.network.dts.storage.Storage;

@@ -1,4 +1,4 @@
-package br.ufu.facom.network.dts.util.route;
+package br.ufu.facom.network.dts.route;
 
 import java.util.HashSet;
 import java.util.Set;

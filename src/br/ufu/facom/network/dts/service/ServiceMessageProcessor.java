@@ -6,11 +6,11 @@ import br.ufu.facom.network.dts.bean.core.Workspace;
 import br.ufu.facom.network.dts.core.message.Service;
 import br.ufu.facom.network.dts.core.message.ServiceRequest;
 import br.ufu.facom.network.dts.core.message.ServiceResponse;
+import br.ufu.facom.network.dts.route.SimpleSpanningTreeCreator;
 import br.ufu.facom.network.dts.storage.Storage;
 import br.ufu.facom.network.dts.topology.Host;
 import br.ufu.facom.network.dts.util.VlanDatabase;
 import br.ufu.facom.network.dts.util.WorkspaceConfigPusher;
-import br.ufu.facom.network.dts.util.route.SimpleSpanningTreeCreator;
 
 public class ServiceMessageProcessor {
 	protected Storage storage;

@@ -1,5 +1,6 @@
 package br.ufu.facom.network.dts.storage;
 
+import java.util.Collection;
 import java.util.Map;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
@@ -174,5 +175,10 @@ public class MemoryStorage implements Storage{
 		
 		for(StorageListener sl : listeners)
 			sl.onDeleteAtachmentHost(port, host);
+	}
+
+	@Override
+	public Collection<Switch> getSwitches() {
+		return switches.values();
 	}
 }

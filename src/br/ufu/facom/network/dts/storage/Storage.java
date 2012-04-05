@@ -1,5 +1,7 @@
 package br.ufu.facom.network.dts.storage;
 
+import java.util.Collection;
+
 import br.ufu.facom.network.dts.bean.core.Entity;
 import br.ufu.facom.network.dts.bean.core.Workspace;
 import br.ufu.facom.network.dts.topology.Host;
@@ -74,4 +76,6 @@ public interface Storage {
 	void deleteWorkspace(Workspace workspace);
 
 	void deleteAtachmentHost(Port port, Host host);
+
+	Collection<Switch> getSwitches();
 }
